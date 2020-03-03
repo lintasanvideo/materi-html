@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table 1</title>
+</head>
+<body>
+
+<h1>Biasakan Melihat Kodingan</h1>
+
+<ol>1. Table Simple</ol>
+ <!-- =================== -->
+<b>Ini Tidak Memakai Border</b>
+<br>-----------------------------------
+	<br><br>
+<table>
+	<tr>
+		<td>baris 1, kolom 1</td>
+		<td>baris 1, kolom 2</td>
+	</tr>
+	<!-- ========== -->
+	<tr>
+		<td>baris 1, kolom 1</td>
+		<td>baris 1, kolom 2</td>
+	</tr>
+</table>
+	<br><br><br>
+<b>Ini Memakai Border</b>
+	<br><br>
+<table border="1" cellspacing="0" cellpadding="5"> <!-- satuan pixel -->
+	<tr>			<!-- cellspacing="0", untuk garis saja -->
+		<td>baris 1, kolom 1</td>
+		<td>baris 1, kolom 2</td>
+	</tr>
+	<!-- ========== -->
+	<tr>
+		<td>baris 1, kolom 1</td>
+		<td>baris 1, kolom 2</td>
+	</tr>
+</table>
+	<br><br><br>
+<ol>2. Table Complex</ol>
+<table>
+	<thead>
+		<tr>
+			<th></th> <!-- header -->
+			<th>Kolom 1</th>
+			<th>Kolom 2</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>Baris 1</th> <!-- header -->
+			<td>Baris 1, Kolom 1</td>
+			<td>Baris 1, Kolom 2</td>
+		</tr>
+		<tr>
+			<th>Baris 2</th> <!-- header -->
+			<td>Baris 2, Kolom 1</td>
+			<td>Baris 2, Kolom 2</td>
+		</tr>
+	</tbody>
+</table>
+
+</body>
+</html>
+
+<!-- Digunakan untuk menampilkan score,anggaran biaya, membuat kalender
+
+* Untuk menghias table, bisa menggunakan CSS
+
+* Struktur Sebuah Tabel:
+	- Dua Buah Baris dan Dua Buah Kolom
+	- Judul/Header
+	- Dua sumbu header= Vertikal dan Horizontal
+============================================	
+	- Kotak yang Horizontal disebut baris
+	- Kotak yang Vertikal disebut kolom
+	- Perpotong baris dengan kolom disebut Cell/Data
+
+- <table></table> >> pembungkus untuk membuat tabel 
+di sebuah program html
+- <tr></tr> >> Untuk membuat baris/ table row
+- <td></td> >> Untuk membuat kolom/ table data
+- <th></th> >> Untuk membuat table header pada kolom/ menyimpan data
+- <thead></thead> >> table header
+- <tbody></tbody> >> table body
+
+*Bisa diperbagus menggunakan CSS
+border="" >> Untuk memberi border
+cellspacing="" >> Untuk memberi jarak antar cell(defaultnya adalah 0)
+cellpadding="" >> Untuk memberi ruang antar data 
+
+
+
+* Dua macam table:
+	- Simple >> Dibungkus dengan tag
+	<table>
+		<tr>
+			<td>...</td>
+		</tr>
+	</table>
+	- Complex
+	<table>
+	<thead>
+		<tr>
+			<th></th>
+			<th>Kolom 1</th>
+			<th>Kolom 2</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>Baris 1</th>
+			<td>Baris 1, Kolom 1</td>
+			<td>Baris 1, Kolom 2</td>
+		</tr>
+		<tr>
+			<th>Baris 2</th>
+			<td>Baris 2, Kolom 1</td>
+			<td>Baris 2, Kolom 2</td>
+		</tr>
+	</tbody>
+</table>
+
+ -->

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table Merging</title>
+</head>
+<body>
+
+<h1>Biasakan Melihat Kodingan</h1>
+	<br><br>
+<b>Table 3 Buah Baris dan kolom</b>
+	<br><br>
+<table border="1" cellspacing="0" cellpadding="5">
+	<tr>
+		<td>1,1</td>
+		<td>1,2</td> <!-- Ini digabung -->
+		<td>1,3</td> <!-- ============ -->
+	</tr>
+	<tr>
+		<td>2,1</td>
+		<td>2,2</td>
+		<td>2,3</td>
+	</tr>
+	<tr>
+		<td>3,1</td>
+		<td>3,2</td>
+		<td>3,3</td>
+	</tr>
+</table>
+	<br><br>
+	<hr>	
+<b>Ini Memakai colspan</b>
+	<br><br>
+<table border="1" cellspacing="0" cellpadding="5">
+	<tr>
+		<td>1,1</td>
+		<td colspan="2">colspan 2</td>
+	</tr>
+	<tr>
+		<td>2,1</td>
+		<td>2,2</td>
+		<td>2,3</td>
+	</tr>
+	<tr>
+		<td>3,1</td>
+		<td>3,2</td>
+		<td>3,3</td>
+	</tr>
+</table>
+	<br><br>
+	<hr>
+<b>Ini Memakai rowspan</b>
+	<br><br>
+<table border="1" cellspacing="0" cellpadding="5">
+	<tr>
+		<td rowspan="3">rowspan 3</td>
+		<td colspan="2">colspan 2</td>
+	</tr>
+	<tr>
+		<!-- dihapus -->
+		<td>2,2</td>
+		<td>2,3</td>
+	</tr>
+	<tr>
+		<!-- dihapus -->
+		<td>3,2</td>
+		<td>3,3</td>
+	</tr>
+</table>
+
+<br><br><br>
+	<hr>
+<b>Latihan Membuat Kolom</b>
+	<br><br>
+
+<table border="1" cellspacing="0" cellpadding="5">
+	<tr>
+		<td>1,1</td>
+		<td>1,2</td>
+		<td>1,3</td>
+		<td>1,4</td>
+	</tr>
+	<tr>
+		<td>2,1</td>
+		<td rowspan="2" colspan="2"><center>?</center></td>
+		<td>2,4</td>
+	</tr>
+	<tr>
+		<td>3,1</td>
+		
+		<td>3,4</td>
+	</tr>
+	<tr>
+		<td>4,1</td>
+		<td>4,2</td>
+		<td>4,3</td>
+		<td>4,4</td>
+	</tr>
+</table>
+
+</body>
+</html>
+
+
+<!-- kedua atribut ini digunakan untuk melakukan merging/menggabungkan dua buah cell pada table -->
+
+<!-- - colspan >> Untuk menggabungkan dua cell yang horizontal/kolom
+- rowspan >> Untuk menggabungkan dua cell yang Vertikal/baris -->
+
+	<!-- center disini gunanya untuk meratakan teks agar berada di tengah, lihat pada baris 84 -->
+
+<!-- roswpan sedikit lebih sulit dari colspan -->
